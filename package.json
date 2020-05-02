@@ -1,0 +1,18 @@
+{
+  "name": "hack-engine-demo",
+  "version": "0.0.1",
+  "description": "demo usage of hack-engine",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Entkenntnis/hack-engine-demo.git"
+  },
+  "scripts": {
+    "start": "node --use_strict index.js"
+  },
+  "main": "index.js",
+  "author": "Entkenntnis <hack@arrrg.de>",
+  "license": "MIT",
+  "dependencies": {
+    "hack-engine": "Entkenntnis/hack-engine"
+  }
+}
