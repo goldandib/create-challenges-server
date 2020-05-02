@@ -7,12 +7,12 @@
     "url": "git://github.com/Entkenntnis/hack-engine-demo.git"
   },
   "scripts": {
-    "start": "node --use_strict index.js"
+    "start": "node index.js"
   },
   "main": "index.js",
   "author": "Entkenntnis <hack@arrrg.de>",
   "license": "MIT",
   "dependencies": {
-    "hack-engine": "Entkenntnis/hack-engine"
+    "hack-engine": "github:Entkenntnis/hack-engine"
   }
 }
