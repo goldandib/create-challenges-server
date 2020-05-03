@@ -1,1 +1,1 @@
-require('hack-engine')()
+require('@entkenntnis/challenges-server')()
