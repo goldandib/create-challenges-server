@@ -5,7 +5,7 @@ module.exports = [
     title: 'Welcome',
     deps: [],
     html: `
-      <p>Welcome to the hack-engine! This demo will guide you through the process of creating your own hacking experience (although the engine is not limited to IT usages!).
+      <p>Welcome to the challenges-server! This demo will guide you through the process of creating your own challenges experience.
       </p>
       
       <p>All challenges in this demo will have the same answer, which is "hi". So type "hi" (without quotes) into the input below to continue:
@@ -19,9 +19,6 @@ module.exports = [
     title: 'challenges.js file',
     deps: [1],
     html: `
-      <p>All data is stored in your data directory. You will pass the path to this directory to the server at startup. To learn how to set up a server, visit the <a href="https://github.com/Entkenntnis/hack-engine">github page</a>.
-      </p>
-      
       <p>The main file for your challenges is <code>challenges.js</code>. It should export a single array with your challenge definitions. The next tutorial will explain the content of such a definition.
       </p>
       
@@ -32,11 +29,10 @@ module.exports = [
   {
     id: 3,
     pos: { x: 330, y: 200 },
-    title: 'config.js file',
+    title: 'index.js file',
     deps: [1],
     html: `
-      <p>The server has many configurations, which you can control with the <code>config.js</code> file. Visit the <a href="https://github.com/Entkenntnis/hack-engine">github page</a> to learn which options you can set there.
-      </p>
+      <p>This file is the entrypoint of the server. Here, you import the challenges-server package and run it. You can configure the server here, learn more on the <a href="https://github.com/Entkenntnis/challenges-server">github page of the challenges-server</a></p>.
     `,
     solution: 'hi',
   },
@@ -135,7 +131,7 @@ module.exports = [
     title: 'check function II',
     deps: [5],
     html:
-      '<p>The most simple challenge consists of a text and an input for the answer. The answer of this challenge is <code>hi</code></p>',
+      '<p>TODO</p>',
     solution: 'hi',
   },
   {
@@ -144,7 +140,7 @@ module.exports = [
     title: 'hide ui',
     deps: [5],
     html:
-      '<p>The most simple challenge consists of a text and an input for the answer. The answer of this challenge is <code>hi</code></p>',
+      '<p>TODO</p>',
     solution: 'hi',
   },
   {
@@ -153,7 +149,7 @@ module.exports = [
     title: 'Be creative!',
     deps: [6, 7, 8, 9, 10],
     html:
-      '<p>The most simple challenge consists of a text and an input for the answer. The answer of this challenge is <code>hi</code></p>',
+      '<p>TODO</p>',
     solution: 'hi',
   },
 ]
