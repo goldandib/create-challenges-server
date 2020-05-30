@@ -1,6 +1,6 @@
 {
   "name": "create-challenges-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "demo usage of challenges-server",
   "repository": {
     "type": "git",
@@ -13,6 +13,6 @@
   "author": "Entkenntnis <hack@arrrg.de>",
   "license": "MIT",
   "dependencies": {
-    "@entkenntnis/challenges-server": "0.1.1"
+    "@entkenntnis/challenges-server": "0.2.5"
   }
 }
