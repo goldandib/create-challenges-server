@@ -13,6 +13,6 @@
   "author": "Entkenntnis <hack@arrrg.de>",
   "license": "MIT",
   "dependencies": {
-    "@entkenntnis/challenges-server": "0.2.5"
+    "@entkenntnis/challenges-server": "0.2.6"
   }
 }
