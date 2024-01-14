@@ -13,7 +13,7 @@
   "author": "Entkenntnis <hack@arrrg.de>",
   "license": "MIT",
   "dependencies": {
-    "@entkenntnis/challenges-server": "goldandib/challenges-server",
+    "@entkenntnis/challenges-server": "@goldandib/challenges-server",
     "sqlite3": "^5.1.5"
   }
 }
